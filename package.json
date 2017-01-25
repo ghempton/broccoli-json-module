@@ -1,7 +1,7 @@
 {
   "name": "broccoli-json-module",
   "description": "Converts JSON files to ES6 modules",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "author": "Gordon L. Hempton <ghempton@gmail.com>",
   "main": "index.js",
   "license": "MIT",
@@ -16,6 +16,6 @@
     "modules"
   ],
   "dependencies": {
-    "broccoli-filter": "^1.2.3"
+    "broccoli-filter": "^1.2.4"
   }
 }

@@ -15,7 +15,15 @@
     "es6",
     "modules"
   ],
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "broccoli-filter": "^1.2.4"
+  },
+  "devDependencies": {
+    "broccoli-test-helper": "^1.2.0",
+    "co": "^4.6.0",
+    "jest": "^21.2.1"
   }
 }

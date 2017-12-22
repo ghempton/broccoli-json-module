@@ -41,5 +41,16 @@ describe('JsonModule', () => {
         'c.js': 'export default { baz: 37 };',
       }
     });
+
+    input.write({
+      'a.json': '{"foo": 73}',
+      'lib': null
+    });
+
+    yield output.build();
+
+    expect(output.read()).toEqual({
+      'a.js': 'export default {"foo": 73};',
+    });
   }));
 });

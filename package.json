@@ -19,7 +19,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "broccoli-filter": "^1.2.4"
+    "broccoli-persistent-filter": "^1.4.3"
   },
   "devDependencies": {
     "broccoli-test-helper": "^1.2.0",
